@@ -97,7 +97,7 @@ int remove()
 	}
 	else
 	{
-		while(i!=rare)
+		while(i!=rare-1)
 		{
 			queue[i]=queue[i+1];
 			i++;
